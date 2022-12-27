@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    font-size: 16px;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    /*cores */
+    --dark-primary-color: #ffa000;
+    --ligth-primary-color: #FFECB3;
+    --primary-color: #FFC107;
+    --text-icons: #212121;
+    --accent-color: #ffc107;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --bg-button: #176902;
+
+    /*fontes*/
+    --font-size-large: 72px;
+    --font-size-big: 66px;
+    --font-size-md: 26px;
+}

@@ -1,0 +1,99 @@
+#root {
+
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+main {
+    width: 50%;
+
+}
+
+h1 {
+    color: var(--dark-primary-color);
+    padding-top: 107px;
+    padding-bottom: 28px;
+}
+
+#card-risoto-de-abobora {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+img {
+    padding-bottom: 30px;
+}
+
+.tags {
+    padding: 7px 25px 7px 25px;
+
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+
+    border-radius: 47px;
+
+    border: 1px solid var(--bg-button);
+
+    color: var(--bg-button);
+
+    font-size: 18px;
+
+
+}
+
+#receita {
+    padding-top: 65px;
+}
+
+#video {
+    padding-bottom: 36px;
+}
+
+#preparo {
+    padding-top: 70px;
+    padding-bottom: 166px;
+    font-weight: 500;
+    width: 500px;
+}
+
+#t {
+    color: var(--dark-primary-color);
+
+    font-size: 30px;
+
+    padding-top: 200px;
+
+    padding-bottom: 27px;
+}
+
+
+.card-shadow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    padding-bottom: 40px;
+
+    margin-bottom: 100px;
+}
+
+.card-shadow img {
+
+    width: 290px;
+    height: 282px;
+}
+
+.card-shadow p {
+    font-size: 30px;
+}

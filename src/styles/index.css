@@ -1,0 +1,100 @@
+.generic-section {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+#receitas-com-afeto {
+    background-image: url('../../assets/images/receitas-com-afeto.png');
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+h1 {
+    width: 400px;
+    font-size: var(--font-size-large);
+    color: #fff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+
+    position: absolute;
+
+    top: 16%;
+    left: 66%;
+
+}
+
+
+
+.card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#card-horizontal {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+#titulo2 {
+    font-size: var(--font-size-big);
+    color: var(--dark-primary-color);
+    text-align: center;
+}
+
+.card-receita strong {
+    margin: 12px 0px;
+    font-size: var(--font-size-md);
+}
+
+.card-receita button {
+    color: #fff;
+    border: 0;
+    background-color: var(--bg-button);
+
+    width: 100px;
+    padding: 10px;
+    transition: 300ms;
+}
+
+.card-receita button:hover {
+    cursor: pointer;
+
+    background-color: rgb(12, 248, 8);
+}
+
+#comer-viver {
+    background-image: url(../../assets/images/comer-viver.png);
+    position: relative;
+}
+
+#titulo-comer-viver {
+    font-size: var(--font-size-big);
+    position: absolute;
+
+    top: 40%;
+    left: 4%;
+
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#comer-viver p {
+    position: absolute;
+
+    top: 60%;
+    left: 4%;
+
+    color: #fff;
+
+    font-weight: 500;
+    width: 500px;
+    font-size: large;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
