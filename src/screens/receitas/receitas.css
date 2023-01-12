@@ -43,3 +43,23 @@ h1 {
 
     background-color: rgb(12, 248, 8);
 }
+
+@media only screen and (max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .card-receita {
+        margin-bottom: 40px;
+    }
+}

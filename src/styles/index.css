@@ -110,7 +110,7 @@ h1 {
     }
 
     header {
-        display: none;
+        display: ;
     }
 
     #receitas-com-afeto {
@@ -127,25 +127,15 @@ h1 {
     h1 {
         position: static;
 
-        font-size: 3rem;
+        font-size: 2.7rem;
+
+        margin: 0 auto;
     }
 
-    .show-nav {
-        display: block;
 
-        position: absolute;
-
-        top: 10px;
-        left: 20px;
-
-        width: 3rem;
-
-        background: 0;
-        border: 0;
-    }
 
     .generic-section h2 {
-        font-size: 1.6rem;
+        font-size: 1.1rem;
         margin: 40px 0px;
     }
 
@@ -159,7 +149,7 @@ h1 {
 
     #comer-viver {
         position: relative;
-        top: 1050px;
+        top: 1250px;
 
         display: flex;
         flex-direction: column;
@@ -185,23 +175,5 @@ h1 {
 
         margin-bottom: 10px;
     }
-
-    footer {
-        background-size: cover;
-        position: relative;
-
-        flex-direction: column;
-        justify-content: center;
-
-
-        text-align: center;
-
-        top: 1050px;
-        padding-right: 60px;
-    }
-
-
-
-
 
 }
